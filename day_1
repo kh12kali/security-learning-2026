@@ -1,0 +1,10 @@
+hey this is my day 1 of begining to learn about modern cybersecurity problems and their solutions.
+  today i have read about OWASP top 10 2025 in which i selected two vulnerabilities that i will describe here:
+  1. BROKEN ACCESS CONTROLL (https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/>):
+        The broken access controll means that the user access controlling in simple words for example a user is not logged in and he is trying to get priviliges of user who are logged in or someone tries to access
+        the admin panel this is called access controll. Now it can be very dangrous because if an attacker get access to something he was npt allowed like admin panel he can do many bad things.
+
+  2. Security Logging & Alerting Failures (https://owasp.org/Top10/2025/A09_2025-Security_Logging_and_Alerting_Failures/):
+        logging and keeping eyes on logs are one important thing in organization's security on the other hands alerts are most important for example if your security system only send alerts or logs for successful
+        logins and didnt send alerts or logs for unsuccessful login's it can be very dangrous so thats why i believe in field of security this portion needs to be storng enough.
+                                           
