@@ -1,1 +1,15 @@
+tool 1:
+import requests
 
+url = "https://google.com"
+response = requests.get(url)
+
+headers = response.headers
+
+print("Status Code:", response.status_code)
+
+if "Content-Security-Policy" in headers:
+    print("CSP Header: PRESENT")
+else:
+    print("CSP Header: MISSING")
+########################################################################################################################################################################
